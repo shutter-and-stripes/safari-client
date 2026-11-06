@@ -7,20 +7,6 @@
     {
       "source": "/(.*)",
       "destination": "/index.html"
-    },
-    {
-      "source": "/(.*)",
-      "destination": {
-        "type": "service",
-        "service": "shutter-and-stripes-frontend"
-      }
     }
-  ],
-  "services": {
-    "shutter-and-stripes-frontend": {
-      "root": ".",
-      "framework": "vite",
-      "buildCommand": "npm ci && npm run build"
-    }
-  }
+  ]
 }
