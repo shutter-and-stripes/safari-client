@@ -10,3 +10,4 @@ preview.log
 # locally, not shipped in git.
 _source/
 public/assets/img/IMG_20261009_153638.jpg.jpeg
+.vercel
